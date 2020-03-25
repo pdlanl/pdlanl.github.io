@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -25,11 +25,11 @@ url                      : "https://www.poudelanil.com.np"
 baseurl                  : "/"
 repository               : "pdlanl/pdlanl.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-favicon                  : '/img/'
+favicon                  : '/assets/images/favicon.ico'
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -71,12 +71,12 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : anlpdl
+  username               : pdlanl
 facebook:
   username               : pdlanl
   app_id                 : 655274245207073
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/88x88.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Anil Poudel"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Kathmandu, Nepal"
   email            : "anlpdl@yahoo.com"
@@ -105,16 +105,16 @@ author:
       # url: mailto:anlpdl@yahoo.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://poudelanil.com.np"
+      # url: "https://poudelanil.com.np"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/anlpdl"
+      url: "https://twitter.com/pdlanl"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/pdlanl"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pdlanl"
+      # url: "https://github.com/pdlanl"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/pdlanl"
@@ -124,7 +124,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/anlpdl"
+      url: "https://twitter.com/pdlanl"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/pdlanl"
@@ -133,7 +133,7 @@ footer:
       url: "https://github.com/pdlanl"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://github.com/anlpdl"
+      url: "https://github.com/pdlanl"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
