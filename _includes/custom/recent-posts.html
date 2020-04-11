@@ -1,0 +1,10 @@
+<div>
+  <h4 class="d-flex justify-content-between">
+    Recent Posts
+    <a href="/posts" class="btn btn--primary">View all</a>
+  </h4>
+  <div>
+    {% for post in site.posts limit:4 %} {% if post.id == page.id %} {% continue
+    %} {% endif %} {% include archive-single.html type="grid" %} {% endfor %}
+  </div>
+</div>
