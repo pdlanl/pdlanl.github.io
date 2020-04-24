@@ -10,8 +10,8 @@ comments: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/posts/git.svg
-  teaser: /assets/images/posts/git.svg
+  overlay_image: /assets/images/posts/2020-03-19-git-commands.svg
+  teaser: /assets/images/posts/2020-03-19-git-commands.svg
 ---
 
 ### Getting & Creating Projects

@@ -10,8 +10,8 @@ comments: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/posts/npm.svg
-  teaser: /assets/images/posts/npm.svg
+  overlay_image: /assets/images/posts/2020-03-21-npm-commands.svg
+  teaser: /assets/images/posts/2020-03-21-npm-commands.svg
 ---
 
 ### Package Management
