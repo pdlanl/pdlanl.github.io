@@ -133,7 +133,7 @@ footer:
       url: "https://github.com/pdlanl"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://github.com/pdlanl"
+      url: "https://gitlab.com/pdlanl"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
